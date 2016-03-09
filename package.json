@@ -1,0 +1,26 @@
+{
+  "name": "travisci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefan-clevernudge/TravisCI_test.git"
+  },
+  "author": "Stefan Slivinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefan-clevernudge/TravisCI_test/issues"
+  },
+  "homepage": "https://github.com/stefan-clevernudge/TravisCI_test#readme"
+}
