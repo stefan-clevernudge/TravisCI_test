@@ -6,6 +6,6 @@ describe("hello()", function() {
 
   result = test.print_hello();
   
-  expect(result).to.equal("Hello Worlds");
+  expect(result).to.equal("Hello World");
   });
 });
