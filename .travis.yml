@@ -1,19 +1,12 @@
 language: node_js
-
 script: npm test
 node_js:
   - "4.1"
   - "5.7.0"
   - "0.10"
-  sudo: false
   notifications:
-    slack:
-        rooms:
-        - clevernudge:cBZnTIV5rhvOAwWRyAl4CrJS#ci
-            on_success: never
-            on_failure: always
-        email: 
-            recipients:
-                - stefan@clevernudge.com
-            on_success: never
-            on_failure: always
+    email: 
+        recipients:
+            - stefan@clevernudge.com
+        on_success: never
+        on_failure: always
